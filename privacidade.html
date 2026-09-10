@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Política de Privacidade — Lumnis</title>
+<meta name="description" content="Como o Lumnis coleta, usa e protege seus dados."/>
+<style>
+  :root{ --bg:#0f0f12; --card:#18181b; --border:#27272a; --text:#f4f4f5; --muted:#a1a1aa; --accent:#22c55e; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 22px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#18181b,#0f0f12);border:1px solid rgba(255,255,255,.09);display:grid;place-items:center;font-family:Georgia,serif;font-size:1.5rem;font-weight:700;position:relative}
+  .logo::after{content:"";position:absolute;top:7px;right:7px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+  h1{font-size:1.7rem;margin:22px 0 6px;letter-spacing:-.02em}
+  .updated{color:var(--muted);font-size:.85rem;margin-bottom:34px}
+  h2{font-size:1.08rem;margin:34px 0 10px;letter-spacing:-.01em}
+  p,li{color:#d4d4d8;font-size:.94rem}
+  ul{padding-left:20px}
+  li{margin-bottom:7px}
+  a{color:#4ade80}
+  .box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;margin:20px 0}
+  .box p{margin:0;font-size:.9rem}
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.88rem}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:.76rem;text-transform:uppercase;letter-spacing:.05em}
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--border);color:var(--muted);font-size:.84rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">L</div>
+    <strong>Lumnis</strong>
+  </header>
+
+  <h1>Política de Privacidade</h1>
+  <div class="updated">Última atualização: 10 de setembro de 2026</div>
+
+  <p>O Lumnis é um aplicativo de controle de gastos pessoais. Esta política explica
+  quais dados coletamos, por que coletamos e o que você pode fazer a respeito.</p>
+
+  <div class="box">
+    <p><strong>Resumo:</strong> guardamos apenas o necessário para o app funcionar.
+    Não vendemos, alugamos nem compartilhamos seus dados financeiros com terceiros
+    para fins de publicidade.</p>
+  </div>
+
+  <h2>1. Quem somos</h2>
+  <p>O Lumnis é operado por João Batista de Araújo. Para qualquer assunto relacionado
+  a privacidade, o contato é <a href="mailto:nexusrugido@gmail.com">nexusrugido@gmail.com</a>.</p>
+
+  <h2>2. Dados que coletamos</h2>
+  <table>
+    <tr><th>Dado</th><th>Origem</th><th>Por quê</th></tr>
+    <tr><td>Nome e e-mail</td><td>Você, ou seu perfil Google ao entrar</td><td>Identificar sua conta e enviar comunicações do serviço</td></tr>
+    <tr><td>Foto de perfil</td><td>Seu perfil Google (opcional)</td><td>Exibir seu avatar no aplicativo</td></tr>
+    <tr><td>Lançamentos financeiros</td><td>Você, pelo app ou pelo WhatsApp</td><td>É a função central do produto</td></tr>
+    <tr><td>Faturas importadas</td><td>Arquivos CSV/PDF que você envia</td><td>Registrar despesas de cartão</td></tr>
+    <tr><td>Número de telefone</td><td>Você, ao usar o assistente</td><td>Vincular suas mensagens à sua conta</td></tr>
+    <tr><td>Dados de uso</td><td>Automático</td><td>Corrigir erros e melhorar o app</td></tr>
+  </table>
+
+  <h2>3. Login com Google</h2>
+  <p>Ao escolher entrar com o Google, recebemos apenas seu <strong>nome, endereço de
+  e-mail e foto de perfil</strong>. São os escopos básicos <code>openid</code>,
+  <code>email</code> e <code>profile</code>.</p>
+  <p>Não solicitamos e não temos acesso ao seu Gmail, Google Drive, Contatos, Agenda
+  ou qualquer outro serviço da sua conta Google. Nunca recebemos sua senha do Google —
+  a autenticação acontece inteiramente nos servidores do Google.</p>
+  <p>Você pode revogar o acesso do Lumnis a qualquer momento em
+  <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</p>
+
+  <h2>4. Como usamos seus dados</h2>
+  <ul>
+    <li>Operar o app: exibir seus lançamentos, gráficos, metas e alertas.</li>
+    <li>Autenticar seu acesso e manter sua sessão.</li>
+    <li>Enviar avisos do serviço, como faturas a vencer e o relatório mensal.</li>
+    <li>Dar suporte quando você abre um chamado.</li>
+    <li>Cumprir obrigações legais.</li>
+  </ul>
+  <p>Não usamos seus dados financeiros para publicidade e não treinamos modelos de
+  inteligência artificial com eles.</p>
+
+  <h2>5. Com quem compartilhamos</h2>
+  <p>Apenas com os provedores de infraestrutura necessários para o app funcionar:</p>
+  <ul>
+    <li><strong>Supabase</strong> — banco de dados e autenticação.</li>
+    <li><strong>Vercel</strong> — hospedagem do aplicativo.</li>
+    <li><strong>Google</strong> — autenticação, quando você usa o login com Google.</li>
+    <li><strong>Provedores de pagamento</strong> — processam sua assinatura. Não temos
+    acesso ao número do seu cartão.</li>
+    <li><strong>Provedor de IA</strong> — quando você usa o assistente, o texto da sua
+    pergunta e um resumo dos seus números são enviados para gerar a resposta.</li>
+  </ul>
+  <p>Não vendemos seus dados. Não compartilhamos com anunciantes.</p>
+
+  <h2>6. Segurança</h2>
+  <p>O acesso ao banco é protegido por políticas por linha (Row Level Security), de modo
+  que cada usuário só alcança os próprios registros. Todo o tráfego é criptografado por
+  HTTPS. Senhas são armazenadas apenas como hash — nem nós conseguimos lê-las.</p>
+  <p>Nenhum sistema é perfeito. Se identificarmos um incidente que afete seus dados,
+  avisaremos por e-mail.</p>
+
+  <h2>7. Retenção</h2>
+  <p>Mantemos seus dados enquanto sua conta existir. Ao solicitar a exclusão, removemos
+  seus dados pessoais e lançamentos em até 30 dias, ressalvados os registros que a lei
+  nos obrigue a guardar.</p>
+
+  <h2>8. Seus direitos</h2>
+  <p>Pela LGPD (Lei 13.709/2018), você pode solicitar a qualquer momento:</p>
+  <ul>
+    <li>confirmação de que tratamos seus dados e acesso a eles;</li>
+    <li>correção de dados incompletos ou desatualizados;</li>
+    <li>exportação dos seus dados em formato legível;</li>
+    <li>exclusão da conta e dos dados associados;</li>
+    <li>revogação do consentimento.</li>
+  </ul>
+  <p>Escreva para <a href="mailto:nexusrugido@gmail.com">nexusrugido@gmail.com</a> e
+  respondemos em até 15 dias.</p>
+
+  <h2>9. Cookies e armazenamento local</h2>
+  <p>Usamos armazenamento local do navegador para manter você conectado, lembrar o tema
+  escolhido e permitir o funcionamento offline. Não usamos cookies de rastreamento
+  publicitário.</p>
+
+  <h2>10. Menores de idade</h2>
+  <p>O Lumnis não se destina a menores de 18 anos e não coletamos intencionalmente dados
+  dessa faixa etária.</p>
+
+  <h2>11. Mudanças nesta política</h2>
+  <p>Se alterarmos esta política de forma relevante, avisaremos pelo app ou por e-mail
+  antes que a mudança passe a valer. A data no topo indica a versão vigente.</p>
+
+  <footer>
+    Lumnis — controle de gastos pessoais<br>
+    Contato: <a href="mailto:nexusrugido@gmail.com">nexusrugido@gmail.com</a> ·
+    <a href="/">Voltar ao aplicativo</a>
+  </footer>
+
+</div>
+</body>
+</html>

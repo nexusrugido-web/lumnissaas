@@ -1,0 +1,8 @@
+# Nunca versionar: contém service_role key do Supabase
+*n8n*.json
+*workflow*.json
+.env
+.env.*
+node_modules/
+.DS_Store
+Thumbs.db
